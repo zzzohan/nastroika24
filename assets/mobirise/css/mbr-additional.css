@@ -1659,7 +1659,7 @@ body {
 }
 @media (min-width: 992px) {
   .cid-ry9UOPU6Kl .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 8rem);
   }
 }
 .cid-ry9UOPU6Kl .collapsed button.navbar-toggler {
@@ -2163,7 +2163,7 @@ body {
 }
 @media (min-width: 992px) {
   .cid-rxaD3cgFv2 .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 8rem);
   }
 }
 .cid-rxaD3cgFv2 .collapsed button.navbar-toggler {
@@ -2562,7 +2562,7 @@ body {
 }
 @media (min-width: 992px) {
   .cid-ry9UOPU6Kl .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 8rem);
   }
 }
 .cid-ry9UOPU6Kl .collapsed button.navbar-toggler {
