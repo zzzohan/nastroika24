@@ -43,10 +43,10 @@ body {
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.4rem;
+  font-size: 3.2rem;
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
@@ -77,9 +77,9 @@ body {
     line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.2rem;
-    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -1569,6 +1569,11 @@ body {
 .cid-ry9UOPU6Kl .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
 }
+@media (min-width: 992px) {
+  .cid-ry9UOPU6Kl .collapsed:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 3.8rem);
+  }
+}
 .cid-ry9UOPU6Kl .collapsed button.navbar-toggler {
   display: block;
 }
@@ -1729,7 +1734,7 @@ body {
 .cid-ryaO8I1gW2 {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #efefef;
+  background-color: #ffffff;
 }
 .cid-ryaO8I1gW2 h4 {
   font-weight: 500;
@@ -1766,9 +1771,9 @@ body {
   text-align: center;
 }
 .cid-qTkAaeaxX5 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #2e2e2e;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  background-color: #232323;
 }
 @media (max-width: 767px) {
   .cid-qTkAaeaxX5 .content {
@@ -2074,6 +2079,11 @@ body {
 .cid-rxaD3cgFv2 .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-rxaD3cgFv2 .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-rxaD3cgFv2 .collapsed:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 3.8rem);
+  }
 }
 .cid-rxaD3cgFv2 .collapsed button.navbar-toggler {
   display: block;
@@ -2468,6 +2478,11 @@ body {
 .cid-ry9UOPU6Kl .collapsed .navbar-collapse.collapsing .navbar-buttons:last-child,
 .cid-ry9UOPU6Kl .collapsed .navbar-collapse.show .navbar-buttons:last-child {
   margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-ry9UOPU6Kl .collapsed:not(.navbar-short) .navbar-collapse {
+    max-height: calc(98.5vh - 3.8rem);
+  }
 }
 .cid-ry9UOPU6Kl .collapsed button.navbar-toggler {
   display: block;
